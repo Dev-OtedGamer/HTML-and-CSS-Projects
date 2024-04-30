@@ -1,0 +1,29 @@
+h1 {
+	font-size: 56px;
+}
+body {
+	background: dimgray;
+}
+h2 {
+	border: 2px solid red;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	padding: 20px;
+	font-size: 35px;
+	color: white;
+	text-shadow: 4px 4px 5px black;
+}
+article {
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	padding: 5px;	
+}
+details {
+		border: 2px solid red;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background: gray;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	padding: 5px;
+}

@@ -1,0 +1,38 @@
+h1 {
+	font-size: 56px;
+}
+body {
+	background: black;
+}
+h2 {
+	text-align: center;
+	background: white;
+	border: 15px solid red;
+	border-top-left-radius: 300px;
+	border-top-right-radius: 300px;
+	border-bottom-left-radius: 300px;
+	border-bottom-right-radius: 300px;
+	padding: 15px;
+	font-size: 35px;
+	color: black;
+	text-shadow: 1px 2px 2px dimgray;
+}
+article {
+	color: white;
+	padding: 5px;	
+}
+details {
+	text-align: center;
+	border: 6px solid red;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background: dimgray;
+	color: white;
+	font-size: 15px;
+	text-shadow: -1px -1px 0 tomato, 1px -1px 0 tomato, -1px 1px 0 tomato, 1px 1px 0 tomato ;
+	padding: 10px;
+}footer {
+	color: white;
+}

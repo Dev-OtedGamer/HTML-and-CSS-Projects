@@ -1,0 +1,31 @@
+h1 {
+	font-size: 56px;
+}
+body {
+	background: white;
+}
+h2 {
+	text-align: center;
+	background: black;
+	border-block: 15px solid red;
+	border-top-left-radius: 300px;
+	border-top-right-radius: 300px;
+	border-bottom-left-radius: 300px;
+	border-bottom-right-radius: 300px;
+	padding: 15px;
+	font-size: 35px;
+	color: white;
+	text-shadow: 1px 2px 2px red;
+}
+article {
+	text-align: center;
+	color: black;
+	padding: 5px;	
+}
+details {
+	border: 6px solid red;
+	background: black;
+	color: white;
+	text-shadow: 2px 2px 3px gray;
+	padding: 5px;
+}
