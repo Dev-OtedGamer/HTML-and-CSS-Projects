@@ -44,7 +44,7 @@ h1::after { /*This is the underline */
     width: 150px;
     background: #E91C1C;
     margin: 5px auto 40px;
-    box-shadow: 5px 2px 3px rgba (0, 0, 0, 0.5);
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
@@ -164,7 +164,7 @@ section {
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba (0, 0, 0, 0.9);
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt;
@@ -186,7 +186,7 @@ section {
 }
 
 .head-last {
-    font-size: 18p;
+    font-size: 18px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
     border: 1px dotted #fff;
@@ -217,7 +217,7 @@ section {
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100, 65, 0, .3);
-    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rga(0, 0, 0, 0.5);
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .reservation h2 {
@@ -306,7 +306,7 @@ section {
 
 .terms:hover {
     color: orange;
-    text-decoration: undeline;
+    text-decoration: underline;
 }
 
 .submit input[type="submit"] {
@@ -321,7 +321,7 @@ section {
    padding: 7px 0px;
    width: 25%;
    font-size: 18px;
-   transition: border-color 0.3s color 0.3s backgraound-color 0.3s;
+   transition: border-color 0.3s color 0.3s background-color 0.3s;
    border-radius: 7px;
    background-color: #797a7b;
    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3); 
