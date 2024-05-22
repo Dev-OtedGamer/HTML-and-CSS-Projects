@@ -1,0 +1,508 @@
+/* -----------------------------------------
+  NAV BAR
+------------------------------------------*/
+.menu-container {
+    overflow: hidden;
+    max-height: 340px;
+    background-color: #5b2284;
+    margin: auto;
+    content: " ";
+    top: 0;
+    /*left: 0; */
+    /* position: absolute; */ /* to the top edge of the screen */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /* background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+  .menu-container a {
+    float: left;
+    display: block;
+    color:rgb(175, 160, 188);
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+
+  .menu-container a:hover  {
+    color: rgb(80, 189, 112);
+  }
+
+  /* -----------------------------------------
+  HOME POSTER
+------------------------------------------*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 25% 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0;
+}
+h4 {
+  margin-top: 2px;
+  font-size: smaller;
+}
+
+h6 {
+  position: absolute;
+  bottom: -225px;
+  font-size: small;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: auto; 
+    border: 5px solid #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden; 
+    border-radius: 15px;
+    margin-top: auto;
+    margin-bottom:auto;
+  }
+
+  .Show {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size:40px;
+
+  }
+
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+   /* -----------------------------------------
+  LOGOS
+------------------------------------------*/
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 5px solid #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: fit-content;
+  position: relative; /* Make it the containing block for absolute positioning */
+}
+
+.logo-shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-shape img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.square, .circle, .rectangle, .triangle {
+  position: relative;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rectangle {
+  width: 150px;
+  height: 75px;
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #ffffff;
+  position: relative;
+}
+
+.triangle img {
+  position: absolute;
+  top: -70px;  /* Adjust to center the logo */
+  left: -50px; /* Adjust to center the logo */
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+}
+
+/* Hover effects */
+.logo-container .logo-shape img {
+  transition: opacity 0.5s ease;
+}
+
+.logo-container:hover .logo-shape img {
+  opacity: 0.3;
+}
+
+.add-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.logo-container:hover .add-logo {
+  opacity: 1;
+}
+
+.video {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.reflect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* -----------------------------------------
+  ABOUT/SUMMARY
+------------------------------------------*/
+
+.solidarity {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 150%;
+  width: 30%;
+  text-align: center;
+}
+
+.solidarity p {
+  color: black;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .solidarity p {
+      color: blue;
+  }
+}
+
+/* -----------------------------------------
+  UPCOMING SHOWS
+------------------------------------------*/
+#concerts {
+  margin: 5%;
+}
+
+.venue {
+  text-align: center;
+  font-weight: 900;
+  font-size: 400%;
+  padding-top: 1em;
+}
+
+
+table {
+  width: 40%;
+  border-collapse: collapse; 
+  margin: 0 auto; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+  border: 1px solid;
+  width: 50px; 
+  height: 50px; 
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: medium;
+}
+
+th {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f0f0f0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* -----------------------------------------
+  CONTACT SPONSOR/VIP
+------------------------------------------*/
+
+.heading-padding {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reservation {
+  width: 60%;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0px auto;
+  background-color: rgba(112, 116, 162, 0.644);
+  box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.reservation h2 {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  color: #cdd7e9;
+  font-weight: 500;
+  letter-spacing: 0pt;
+  word-spacing: 0pt;
+}
+
+.reservation h2 span {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  color: #cdd7e9;
+  font-weight: 900;
+  font-size: 1.5em;
+  font-variant: small-caps;
+  letter-spacing: .4pt;
+  word-spacing: .3pt;
+}
+
+.reservation p {
+  color: #cdd7e9;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.reservation form {
+  font-size: 15px;
+  outline: none;
+  font-weight: 600;
+  color: #8D8E8F;
+  padding: 12px 12px;
+  width: 70%;
+  border: 1px solid #808080;
+  margin: 2% auto;
+  border-radius: 7px;
+  background: rgb(227, 222, 222);
+  box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.3);
+  font-family: 'Raleway', sans-serif;
+}
+
+.reservation input[type="text"] {
+  font-size: 20px;
+  outline: none;
+  font-weight: 600;
+  color: #878f98;
+  padding: 2% 1% 2% 7%;
+  width: 65%;
+  border-top: 2px solid #090B0D;
+  border-right: 3px solid #424549;
+  border-bottom: 3px solid #424549;
+  border-left: 2px solid #090B0D;
+  margin: 20px 1em;
+  border-radius: 10px;
+  background: #13161B;
+  box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+  font-family: 'Raleway', sans-serif;
+}
+
+.reservation input[text="type"] :hover {
+  box-shadow: 0 0 18px rgba(100, 65, 0, .8);
+}
+
+.form-spacer {
+  padding: 50px 50px;
+}
+
+.term {
+  margin: 30px 1px 0 0;
+  margin-top: 13%;
+  padding-left: 52px;
+  font-size: 14px;
+  line-height: 5px;
+  color: #000;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  position: relative;
+  display: inline;
+  float: right;
+}
+
+label {
+  font-size:20px;
+}
+
+.terms:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.submit input[type="submit"] {
+ color: rgb(255, 255, 255);
+ cursor: pointer;
+ border: none;
+ font-weight: 900;
+ outline: none;
+ text-align: center;
+ font-family: 'Raleway', sans-serif;
+ margin: 0px 3%;
+ padding: 7px 0px;
+ width: 25%;
+ font-size: 18px;
+ transition: border-color 0.3s color 0.3s background-color 0.3s;
+ border-radius: 7px;
+ background-color: #797a7b;
+ box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3); 
+}
+
+.submit input[type="submit"]:hover {
+  color: #000;
+  background-color: #8d8E8F;
+  box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* -----------------------------------------
+  BENIFITS SPONSOR/VIP
+------------------------------------------*/
+.content {
+  display: flex;
+  flex-wrap: wrap; /* Ensure columns wrap on smaller screens */
+  justify-content: space-between; /* Adjust as needed */
+}
+
+
+.row {
+  display: flex;
+  text-align: center;
+  font-size: 200%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 3em;
+}
+
+.row h7 {
+  font-weight: 900;
+  font-size: 200%;
+  color: blue;
+}
+
+
+.column {
+  flex: 1;
+  padding: 10px; /* Add some padding */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .column {
+      flex: 100%; /* Make columns full width on small screens */
+      background-color: lightblue; /* Change background color to visualize the effect */
+  }
+}
+
+/* Media query for medium screens */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  .column {
+      flex: 48%; /* Make columns take 48% width with some space between them */
+      background-color: lightgreen; /* Change background color to visualize the effect */
+  }
+}
+
+/* Media query for large screens */
+@media screen and (min-width: 993px) {
+  .column {
+      flex: 1; /* Reset to default full width columns */
+      background-color: lightcoral; /* Change background color to visualize the effect */
+  }
+}
+
+
+
+.centered-list {
+  list-style: none;
+  padding: 0;
+}
+
+.p {
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.p:hover {
+  color:#0667c8;
+}
+
+/* -----------------------------------------
+  FOOTER FOR POSTER
+------------------------------------------*/
+
+.copyright {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 29px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Footer {
+  position:fixed;
+  bottom: 1px;
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 29px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding: 1px;
+}
