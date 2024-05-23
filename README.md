@@ -14,7 +14,7 @@ Welcome to my GitHub! Here are some of the projects I've worked on:
 **Description:** A website a made for demonstration purposes, I added in 3 different color schemes with CSS style sheets. 
 I also created the 3D model seen in the images on Blender 3.6.
 
-## Project 4: [Mock Concert Promotion](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/HTML-final/concert-promotion.html)
+## Project 4: [Mock Concert Promotion](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/HTML-final/concert-promotion.html)
 **Description:** I created this while doing all the final challenges for Tech Academy HTML & CSS course. It is a Mock concert
 promotion.
 
