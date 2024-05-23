@@ -18,7 +18,9 @@ I also created the 3D model seen in the images on Blender 3.6.
 **Description:** I created this while doing all the final challenges for Tech Academy HTML & CSS course. It is a Mock concert
 promotion.
 
-## Other Projects
+## Project 5: [Movie Cinema Website](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/bootstarp4_project/academy_cinemas.html)
+**Description:** This is a mock Movie theater website that was styled using Bootstarp 4.
+Many Bootstarp componets were used including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
 
 - [Portfolio Website](https://dev-otedgamer.github.io): A personal portfolio website showcasing my projects and skills.
 - Lots of small challenges and assignments for the Tech Academy.
