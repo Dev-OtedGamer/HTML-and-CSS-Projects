@@ -29,3 +29,7 @@ details {
 	text-shadow: 2px 2px 3px gray;
 	padding: 5px;
 }
+
+.gray-text {
+	text-align: center;
+}
