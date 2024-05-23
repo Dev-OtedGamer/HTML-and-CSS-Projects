@@ -22,8 +22,11 @@ promotion.
 **Description:** This is a mock Movie theater website that was styled using Bootstarp 4.
 Many Bootstarp componets were used including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
 
+## Project 6: [Streaming Service Webpage](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/Debug_Test/HTML_Webpage.html)
+**Description:** This is a website for a new Streaming Service. It is a bare HTML with no styling added.
+
 - [Portfolio Website](https://dev-otedgamer.github.io): A personal portfolio website showcasing my projects and skills.
-- Lots of small challenges and assignments for the Tech Academy.
+##### Lots of small challenges and assignments for the Tech Academy.
 HTML-and-CSS-Projects\Basic_HTML_and_CSS.
 HTML-and-CSS-Projects\Basic_HTML_and_JavaScript_1.
 HTML-and-CSS-Projects\bootstarp4_project.
@@ -33,4 +36,4 @@ HTML-and-CSS-Projects\Effecting-images-with-CSS.
 HTML-and-CSS-Projects\HTML-final.
 HTML-and-CSS-Projects\One-Page Website.
 HTML-and-CSS-Projects\project.
-Feel free to check out the repositories and explore the code!
+##### Feel free to check out the repositories and explore the code!
