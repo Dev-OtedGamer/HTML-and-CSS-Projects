@@ -17,6 +17,8 @@ I also created the 3D model seen in the images on Blender 3.6.
 ## Project 4: [Mock Concert Promotion](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/HTML-final/concert-promotion.html)
 **Description:** I created this while doing all the final challenges for Tech Academy HTML & CSS course. It is a Mock concert
 promotion.
+#### 1. Added an image , centered and rounded edges.
+
 
 ## Project 5: [Movie Cinema Website](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/bootstarp4_project/academy_cinemas.html)
 **Description:** This is a mock Movie theater website that was styled using Bootstarp 4.
