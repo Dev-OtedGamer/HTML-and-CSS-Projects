@@ -17,7 +17,12 @@ I also created the 3D model seen in the images on Blender 3.6.
 ## Project 4: [Mock Concert Promotion](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/HTML-final/concert-promotion.html)
 **Description:** I created this while doing all the final challenges for Tech Academy HTML & CSS course. It is a Mock concert
 promotion.
-#### 1. Added an image , centered and rounded edges.
+#### 1. Added an image , centered and rounded edges, CSS image filter.
+#### 2. Added a footer, used CSS to style footer center, and bold.
+#### 3. Added a table, used CSS to style table border, padding in cells, background color for top row.
+#### 4. Added text over a image.
+#### 5. Added navbar(Home, About, Contact) used CSS to style the navbar background color, font color, hover effect.
+#### 6. Added two column layout, used CSS to style font color, Width & height 
 
 
 ## Project 5: [Movie Cinema Website](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/bootstarp4_project/academy_cinemas.html)
