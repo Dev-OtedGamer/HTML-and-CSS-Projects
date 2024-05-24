@@ -32,6 +32,7 @@
   /* -----------------------------------------
   HOME POSTER
 ------------------------------------------*/
+
 .center {
     display: block;
     margin-left: auto;
@@ -41,11 +42,13 @@
 
   .wrapper {
     display: grid;
-    grid-template-columns: 25% 50%;
+    grid-template-columns: 15% 65%;
     justify-content: center;
     align-items: center;
     height: 100vh; 
     background-color: #f0f0f0;
+    margin-right
+    : 5px;
 }
 h4 {
   margin-top: 2px;
@@ -66,7 +69,7 @@ h6 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     overflow: hidden; 
     border-radius: 15px;
-    margin-top: auto;
+    margin-top: 52px;
     margin-bottom:auto;
   }
 
@@ -95,14 +98,14 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  gap: 20px;
-  padding: 20px;
+  gap: 15px;
+  padding: 15px;
   background-color: #f0f0f0;
   border: 5px solid #fff; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   width: fit-content;
-  position: relative; /* Make it the containing block for absolute positioning */
+  position:relative; /* Make it the containing block for absolute positioning */
 }
 
 .logo-shape {
@@ -128,6 +131,9 @@ h6 {
   background-color: #ffffff;
   border: 2px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  img {
+    filter: brightness(150%);
+  }
 }
 
 .circle {
@@ -137,6 +143,9 @@ h6 {
   border-radius: 50%;
   border: 2px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  img {
+    filter: brightness(120%);
+  }
 }
 
 .rectangle {
@@ -196,6 +205,8 @@ h6 {
   position: relative;
   text-align: center;
   color: white;
+  margin-top: 16em;
+  margin-bottom: 10px;
 }
 
 .reflect {
@@ -212,7 +223,7 @@ h6 {
 .solidarity {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5%;
+  margin-top: 10px;
   margin-bottom: 5%;
   font-size: 150%;
   width: 30%;
@@ -437,7 +448,9 @@ label {
 .column {
   flex: 1;
   padding: 10px; /* Add some padding */
-    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+  box-sizing: border-box; /* Ensure padding and borders are included in the width */
+  width: 75%;
+  height: auto;
 }
 
 /* Media query for smaller screens */
@@ -459,8 +472,8 @@ label {
 /* Media query for large screens */
 @media screen and (min-width: 993px) {
   .column {
-      flex: 1; /* Reset to default full width columns */
-      background-color: lightcoral; /* Change background color to visualize the effect */
+      flex: auto; /* Reset to default full width columns */
+      background-color: rgb(116, 108, 108); /* Change background color to visualize the effect */
   }
 }
 
@@ -469,6 +482,7 @@ label {
 .centered-list {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
 .p {
@@ -485,7 +499,7 @@ label {
 ------------------------------------------*/
 
 .copyright {
-    position: absolute;
+    position: relative;
     bottom: 5px;
     width: 100%;
     text-align: center;
