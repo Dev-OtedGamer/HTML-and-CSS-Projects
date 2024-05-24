@@ -22,7 +22,11 @@ promotion.
 #### 3. Added a table, used CSS to style table border, padding in cells, background color for top row.
 #### 4. Added text over a image.
 #### 5. Added navbar(Home, About, Contact) used CSS to style the navbar background color, font color, hover effect.
-#### 6. Added two column layout, used CSS to style font color, Width & height 
+#### 6. Added two column layout, used CSS to style font color, Width & height.
+#### 7. Added a <p> element and used CSS to add hover efect to the <p> element.
+#### 8. Added a image overlay fade.
+#### 9. Embeded a video with autoplay, mute and loop.
+#### 10. Added text overlay on video.
 
 
 ## Project 5: [Movie Cinema Website](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/bootstarp4_project/academy_cinemas.html)
