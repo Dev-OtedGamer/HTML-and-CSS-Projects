@@ -5,13 +5,13 @@ This repository is for my HTML and CSS projects for The Tech Academy
 Welcome to my GitHub! Here are some of the projects I've worked on:
 
 ## Project 1: [One Page Website](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/One-Page%20Website/one_page_website.html)
-**Description:** A web site for creating and managing influencers and brand/companys. 
+**Description:** A web site for creating and managing influencers and brand/companys. CSS was used for styling contains a navbar, image containers and form.
 
 ## Project 2: [Space Station](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/project/index.html)
-**Description:** Followed along for a Tech Academy assignment, it's a web site advertising trips into space.
+**Description:** Followed along for a Tech Academy assignment, it's a web site advertising trips into space. Styled with CSS and contains a navbar, image containers and a form.
 
 ## Project 3: [Access control Webpage](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/project/Access_Control.html)
-**Description:** A website a made for demonstration purposes, I added in 3 different color schemes with CSS style sheets. 
+**Description:** A website I made for demonstration purposes, I added in 3 different color schemes with CSS style sheets. 
 I also created the 3D model seen in the images on Blender 3.6.
 
 ## Project 4: [Mock Concert Promotion](https://github.com/Dev-OtedGamer/HTML-and-CSS-Projects/blob/main/HTML-final/concert-promotion.html)
