@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>DRCC</title>
 <link rel="stylesheet" type="text/css" href="css/one-pageCSS.css" id="style">
+
 </head>
 
 	<!-- NAV -->
@@ -29,7 +30,9 @@
 					<div>
 						<span class="head-main">Digitally Refined Content Creators</span>
 						</br><h1>Where we make Influencers!
-						</br>Dreams Come true!</h1>
+						</br>Dreams Come true!<br>
+						We do alot for the community also<br>
+						Pro Bono/Crowdsourcing/Non-Profit/Charity-Fundraising Events/ ETC..</h1>
 					</div>
 				</div>
 			</div>
@@ -67,6 +70,112 @@
 		</div>
 	</section>
 	<!-- END About Us -->
+
+	<!--LIGHT BOX SECTION-->
+
+<!-- Initial images to trigger the lightbox -->
+<div class="row">
+    <!-- Column 1: Image thumbnail for Loving Yourself -->
+    <div class="column">
+        <img src="./images/Loving Yourself SML Photo.png" onclick="openModal();currentSlide(1)" class="hover-shadow lightbox-trigger" alt="Loving Yourself DRCC created content to Raise Mental Health Awarness">
+    </div>
+    <!-- Column 2: Image thumbnail for Being Different -->
+    <div class="column">
+        <img src="./images/Being Different SML Photo.png" onclick="openModal();currentSlide(2)" class="hover-shadow lightbox-trigger" alt="Being Different">
+    </div>
+    <!-- Column 3: Image thumbnail for You have Beauty -->
+    <div class="column">
+        <img src="./images/You have Beauty SML photo.png" onclick="openModal();currentSlide(3)" class="hover-shadow lightbox-trigger" alt="You have Beauty">
+    </div>
+    <!-- Column 4: Image thumbnail for Feeding thoughts -->
+    <div class="column">
+        <img src="./images/Feeding thoughts SML.png" onclick="openModal();currentSlide(4)" class="hover-shadow lightbox-trigger" alt="Feeding thoughts">
+    </div>
+    <!-- Column 5: Image thumbnail for Guarding your Heart -->
+    <div class="column">
+        <img src="./images/Guarding your Heart SML.png" onclick="openModal();currentSlide(5)" class="hover-shadow lightbox-trigger" alt="Guarding your Heart">
+    </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <!-- Close button for the modal -->
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <!-- Container for the modal content -->
+    <div class="modal-content">
+
+        <!-- Slides for each image -->
+        <!-- Slide 1: Loving Yourself -->
+        <div class="mySlides">
+            <!-- Number text for slide position -->
+            <div class="numbertext">1 / 5</div>
+            <!-- Slide image -->
+            <img src="./images/Loving Yourself Photo.png" style="width:100%" alt="Loving Yourself">
+        </div>
+
+        <!-- Slide 2: Being Different -->
+        <div class="mySlides">
+            <div class="numbertext">2 / 5</div>
+            <img src="./images/Being Different Photo.png" style="width:100%" alt="Being Different">
+        </div>
+
+        <!-- Slide 3: You have Beauty -->
+        <div class="mySlides">
+            <div class="numbertext">3 / 5</div>
+            <img src="./images/You have Beauty photo.png" style="width:100%" alt="You have Beauty">
+        </div>
+
+        <!-- Slide 4: Feeding thoughts -->
+        <div class="mySlides">
+            <div class="numbertext">4 / 5</div>
+            <img src="./images/Feeding thoughts.png" style="width:100%" alt="Feeding thoughts">
+        </div>
+
+        <!-- Slide 5: Guarding your Heart -->
+        <div class="mySlides">
+            <div class="numbertext">5 / 5</div>
+            <img src="./images/Guarding your Heart.png" style="width:100%" alt="Guarding your Heart">
+        </div>
+
+        <!-- Next/previous controls -->
+        <!-- Previous slide control -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <!-- Next slide control -->
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text container -->
+        <div class="caption-container">
+            <p id="caption"></p> <!-- Element to display the caption text -->
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="row">
+            <!-- Thumbnail 1 for Loving Yourself -->
+            <div class="column">
+                <img class="demo" src="./images/Loving Yourself SML Photo.png" onclick="currentSlide(1)" alt="'Loving Yourself' -- DRCC created content to Raise Mental Health Awarness">
+            </div>
+            <!-- Thumbnail 2 for Being Different -->
+            <div class="column">
+                <img class="demo" src="./images/Being Different SML Photo.png" onclick="currentSlide(2)" alt="'Being Different' -- DRCC created content to Raise Mental Health Awarness">
+            </div>
+            <!-- Thumbnail 3 for You have Beauty -->
+            <div class="column">
+                <img class="demo" src="./images/You have Beauty SML photo.png" onclick="currentSlide(3)" alt="'You have Beauty' -- DRCC created content to Raise Mental Health Awarness">
+            </div>
+            <!-- Thumbnail 4 for Feeding thoughts -->
+            <div class="column">
+                <img class="demo" src="./images/Feeding thoughts SML.png" onclick="currentSlide(4)" alt="'Feeding thoughts' -- DRCC created content to Raise Mental Health Awarness">
+            </div>
+            <!-- Thumbnail 5 for Guarding your Heart -->
+            <div class="column">
+                <img class="demo" src="./images/Guarding your Heart SML.png" onclick="currentSlide(5)" alt="'Guarding your Heart'  -- DRCC created content to Raise Mental Health Awarness">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--END LIGHT BOX SECTION-->
+
 	
 	<!-- GALLERY -->
 	<Section id="gallery">
@@ -192,8 +301,13 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</Section>
 				<!-- END PHOTO CONTAINER 10 -->
 	<!--END GALLERY -->
+
+	
 	
 	<!-- Video Section -->
 	<div>
@@ -206,7 +320,7 @@
 	<!-- END Video Section -->
 	
 	<!-- Contact Us -->
-	<sectionid id="consult">
+	<section id="consult">
 		<div >
 			<div>
                 <div class="container">
@@ -240,7 +354,7 @@
 		</div>
 	</section>
 				
-
+<script src="JS/one_page_website.js" defer></script>
 </body>
 
 <footer>

@@ -169,7 +169,7 @@ section {
     color: #5cbcd770;
     letter-spacing: 5pt;
     word-spacing: 21pt;
-    font-size: 4.5em;
+    font-size: 3.5em;
     text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
@@ -460,6 +460,149 @@ section {
 .white-head {
     color: #C9BDAA;
     margin-top: 5%;
+}
+
+/*---------------------------------------------------------
+    Light Box Section
+----------------------------------------------------------*/
+/* Lightbox styling */
+
+/* Styles for column layout */
+.row > .column {
+    padding: 0 8px; /* Adds horizontal padding between columns */
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both; /* Ensures the container properly clears floated columns */
+}
+
+/* Creates columns that float next to each other */
+.column {
+    float: right; /* Floats columns to the right */
+    width: 20%; /* Sets each column to take 20% of the container's width */
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hides the modal by default */
+    position: fixed; /* Positions the modal relative to the viewport */
+    z-index: 1; /* Ensures the modal is on top of other elements */
+    padding-top: 100px; /* Adds padding to the top of the modal */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enables scrolling if the content is too large */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative; /* Positions elements relative to this container */
+    background-color: #fefefe; /* White background */
+    margin: auto; /* Centers the modal content */
+    padding: 0; /* No padding */
+    width: 90%; /* Sets the width of the modal content */
+    max-width: 1200px; /* Maximum width of the modal content */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Box shadow for the modal */
+}
+
+/* The Close Button */
+.close {
+    color: white; /* White color for the close button */
+    position: absolute; /* Positions the close button absolutely within the modal */
+    top: 30px; /* Distance from the top */
+    right: 25px; /* Distance from the right */
+    font-size: 35px; /* Font size */
+    font-weight: bold; /* Bold font */
+}
+
+.close:hover,
+.close:focus {
+    color: #999; /* Changes color on hover or focus */
+    text-decoration: none; /* No underline */
+    cursor: pointer; /* Pointer cursor */
+}
+
+/* Hides the slides by default */
+.mySlides {
+    display: none; /* Hides slides */
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer; /* Pointer cursor */
+    position: absolute; /* Positions buttons absolutely within the modal */
+    top: 50%; /* Vertically centers the buttons */
+    width: auto; /* Auto width */
+    padding: 16px; /* Padding */
+    margin-top: -50px; /* Offset to vertically center the buttons */
+    color: white; /* White color */
+    font-weight: bold; /* Bold font */
+    font-size: 20px; /* Font size */
+    transition: 0.6s ease; /* Transition effect */
+    border-radius: 0 3px 3px 0; /* Rounded corners */
+    user-select: none; /* Disables text selection */
+    -webkit-user-select: none; /* Disables text selection for Safari */
+}
+
+/* Positions the "next button" to the right */
+.next {
+    right: 0; /* Positions to the right */
+    border-radius: 3px 0 0 3px; /* Rounded corners */
+}
+
+/* On hover, adds a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+/* Number text (e.g., 1/3) */
+.numbertext {
+    color: #f2f2f2; /* Light grey color */
+    font-size: 12px; /* Font size */
+    padding: 8px 12px; /* Padding */
+    position: absolute; /* Positions absolutely within the slide */
+    top: 0; /* Distance from the top */
+}
+
+/* Caption text */
+.caption-container {
+    text-align: center; /* Center aligns the text */
+    background-color: black; /* Black background */
+    padding: 2px 16px; /* Padding */
+    color: white; /* White text color */
+}
+
+/* Thumbnail image controls */
+.column {
+    float: left; /* Float thumbnails to the left */
+    width: 18%; /* Sets width for each thumbnail container */
+    padding: 2px; /* Adds padding around thumbnails */
+}
+
+/* Style for thumbnails */
+img.demo {
+    opacity: 0.6; /* Reduced opacity for thumbnails */
+}
+
+.active,
+.demo:hover {
+    opacity: 1; /* Full opacity for active or hovered thumbnails */
+}
+
+img.hover-shadow {
+    transition: 0.3s; /* Transition effect */
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Box shadow on hover */
 }
 
 /*---------------------------------------------------------
