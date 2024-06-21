@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="XML_Challenge"></p>
+    <script>
+        var XML_Parser, XML_Document;
+        // Creating a text string for the XML structure
+        var Resource = `
+            <resource>
+                <typeResource>Mental Health</typeResource>
+                <organization>Life Works NW</organization>
+                <Website>
+                    <a href="https://www.lifeworksnw.org/">lifeworksnw.org</a>
+                </Website>
+                <phone>(971) 727-8026</phone>
+                <address>18417 SE Oak St, Portland, OR 97233</address>
+                <hoursOperations>
+                    <table>
+                        <thead>
+                            <tr><th>Hours of Operation</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Saturday - Closed</td></tr>
+                            <tr><td>Sunday - Closed</td></tr>
+                            <tr><td>Monday - 8 AM-6 PM</td></tr>
+                            <tr><td>Tuesday - 8 AM-7 PM</td></tr>
+                            <tr><td>Wednesday - 8 AM-7 PM</td></tr>
+                            <tr><td>Thursday - 8 AM-7 PM</td></tr>
+                            <tr><td>Friday - 8 AM-7 PM</td></tr>
+                        </tbody>
+                    </table>
+                </hoursOperations>
+            </resource>
+        `;
+
+        // Creates an XML DOM parser
+        XML_Parser = new DOMParser();
+
+        // Creates a new XML DOM object using the text string
+        XML_Document = XML_Parser.parseFromString(Resource, "text/xml");
+
+        // Output the value of the <typeResource> element
+        document.getElementById("XML_Challenge").innerHTML = 
+        XML_Document.getElementsByTagName("typeResource")[0].childNodes[0].nodeValue;
+    </script>
+</body>
+</html>
